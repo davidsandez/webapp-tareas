@@ -55,7 +55,7 @@
           </tbody>
       </table>
     </div>
-            <div class="flex ">{{$tasks->links()}}</div>
+            <div class="flex ">{{ $tasks->links('vendor.pagination.tailwind') }}</div>
             
 
 
