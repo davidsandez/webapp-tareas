@@ -48,7 +48,7 @@
                     </td>
 
                     <td>
-                        @livewire('update-task', [ 'task' => $task->id ])
+                        @livewire('update-task', [ 'task' => $task->id ], key( $task->id ) )
                     </td>
                 </tr>                
             @endforeach
